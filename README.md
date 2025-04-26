@@ -1,4 +1,4 @@
-# Template para os projetos desenvolvidos no SENAI-SP
+# Template para os projetos desenvolvidos
 
 ---
 
@@ -16,7 +16,7 @@ Você pode gerar um novo projeto diretamente a partir do repositório do GitHub 
 
 Comando:
 ```bash
-cookiecutter https://github.com/Unidade-de-Inteligencia-SENAI/template-senai.git
+cookiecutter https://github.com/iurygoulart23/template-ml.git
 ```
 
 ---
@@ -72,14 +72,14 @@ pip install -r requirements.txt
 
 ## Informações Adicionais
 *Repositório Privado*
-Se o repositório template-senai for privado, você precisará autenticar-se para acessá-lo.
+Se o repositório template-ml for privado, você precisará autenticar-se para acessá-lo.
 
 #### Opção 1: Usar SSH
 Verifique se você tem acesso SSH configurado para o repositório corporativo.
 
 Use o comando com a URL SSH:
 ```bash
-cookiecutter git@github.com:Unidade-de-Inteligencia-SENAI/template-senai.git
+cookiecutter https://github.com/iurygoulart23/template-ml.git
 ```
 
 ### Opção 2: Usar Token de Acesso Pessoal
@@ -87,7 +87,7 @@ Gere um Token de Acesso Pessoal (PAT) no GitHub com permissão para acessar repo
 
 Use o comando com o token:
 ```bash
-cookiecutter https://<seu_token>@github.com/Unidade-de-Inteligencia-SENAI/template-senai.git
+cookiecutter https://<seu_token>@github.com/iurygoulart23/template-ml.git
 ```
 *Nota*: Substitua <seu_token> pelo seu token real.
 
@@ -100,10 +100,10 @@ Caso tenha problemas ao acessar o repositório diretamente, você pode clonar o 
 
 - Passo 1: Clonar o Repositório
 ```bash
-git clone git@github.com:Unidade-de-Inteligencia-SENAI/template-senai.git
+git clone git@github.com:iurygoulart23/template-ml.git
 ```
 
 - Passo 2: Usar o Cookiecutter Localmente
 ```bash
-cookiecutter template-senai/
+cookiecutter template-ml/
 ```
